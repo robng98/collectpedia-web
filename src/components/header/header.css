@@ -1,0 +1,15 @@
+header {
+    background: var(--cinza_medio);
+    margin-bottom: 3%;
+
+}
+
+.logo-dir {
+    font-family: var(--font_fm);
+    font-weight: bold;
+    font-size: var(--font-sz-max);
+    color: var(--cinza_font);
+    text-decoration: none;
+    grid-column: 10/12;
+    justify-self: center;
+}
