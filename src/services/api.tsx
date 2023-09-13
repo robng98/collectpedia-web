@@ -10,7 +10,7 @@ if ( token !== undefined){
 }
 
 const api = axios.create({
-    baseURL: 'http://localhost:4002'
+    baseURL: 'https://collectpedia-api.vercel.app/'
 });
 
 export default api;
