@@ -94,7 +94,9 @@ const TelaAdmColecoes = () => {
             console.log(response.data)
         })
 
-        window.location.reload()
+        setTimeout(function () {
+            window.location.reload();
+        }, 200);
     }
 
     const handleDeletaCol = async (e: React.FormEvent<HTMLElement>) => {
@@ -111,8 +113,9 @@ const TelaAdmColecoes = () => {
         api.post('/admCol/deleteColecao', data).then(response => {
             console.log(response.data)
         })
-
-        window.location.reload()
+        setTimeout(function () {
+            window.location.reload();
+        }, 200);
     }
 
     const handleCreateCol = async (e: React.FormEvent<HTMLElement>) => {
@@ -130,7 +133,9 @@ const TelaAdmColecoes = () => {
             console.log(response.data)
         })
 
-        window.location.reload()
+        setTimeout(function () {
+            window.location.reload();
+        }, 200);
     }
 
     const handleEditaDeleta = (nomeOld: string) => {
